@@ -10,13 +10,18 @@ annotate service.media with @(
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'filename',
-                Value : filename,
+                Label : 'fileName',
+                Value : fileName,
             },
             {
                 $Type : 'UI.DataField',
                 Label : 'MediaType',
                 Value : MediaType,
+            },
+            {
+                $Type : 'UI.DataField',
+                Label : 'size',
+                Value : size,
             },
             {
                 $Type : 'UI.DataField',
@@ -41,8 +46,8 @@ annotate service.media with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'filename',
-            Value : filename,
+            Label : 'fileName',
+            Value : fileName,
         },
         {
             $Type : 'UI.DataField',
@@ -51,13 +56,14 @@ annotate service.media with @(
         },
         {
             $Type : 'UI.DataField',
+            Label : 'size',
+            Value : size,
+        },
+        {
+            $Type : 'UI.DataField',
             Label : 'url',
             Value : url,
         },
     ],
-    UI.SelectionFields : [
-        filename,
-        MediaType
-    ]
 );
 

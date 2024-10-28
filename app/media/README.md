@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Sun Oct 27 2024 09:42:10 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Sun Oct 27 2024 15:12:17 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.15.3|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/MediaService/|
 |**Module Name**<br>media|
-|**Application Title**<br>media ui|
+|**Application Title**<br>upload app|
 |**Namespace**<br>sravan.ust|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.129.2|

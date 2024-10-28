@@ -19,6 +19,9 @@
     "watch-media": "cds watch --open media/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
+    "app/media",
+    "app/media",
+    "app/media",
     "app/media"
   ]
 }

@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.15.3",
-      "toolsId": "95bb3415-b90b-475b-8050-4b62c5a26efc"
+      "toolsId": "1921e9c2-8596-4b1f-8388-4a6b688e3839"
     },
     "dataSources": {
       "mainService": {
@@ -114,6 +114,15 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable"
+                  },
+                  "actions": {
+                    "upload": {
+                      "press": "sravan.ust.media.ext.controller.Upload.onOpenFragment",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "upload file"
+                    }
                   }
                 }
               }
